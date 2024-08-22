@@ -18,7 +18,7 @@
 - docker container ls
 - docker container commit --change='CMD ["java","-jar","/tmp/hello-world-rest-api.jar"]' naughty_knuth in28min/hello-world-rest-api:manual2-for mac
 - docker container commit --change="CMD [\"java\",\"-jar\",\"/tmp/hello-world-rest-api.jar\"]" naughty_knuth in28min/hello-world-rest-api:manual2 for windows
-- docker run -p 8080:8080 in28min/hello-world-rest-api:manual2, and check whether 8080 is your local tomcat port or not, if your tomcat initiated port is 8081 use docker run -p 8080:8081 in28min/hello-world-rest-api:manual2 and also make sure nothing is using port 8080, if they are using eithrt terminate them or use other port.
+- docker run -p 8080:8080 in28min/hello-world-rest-api:manual2, and check whether 8080 is your local tomcat port or not, if your tomcat initiated port is 8081 use docker run -p 8080:8081 in28min/hello-world-rest-api:manual2 and also make sure nothing is using port 8080, if they are using either terminate them or use another port number.
 
 
 ### Running the Application
